@@ -37,14 +37,14 @@ int main()
         {
             cin >> name;
             if (cin.fail())
-                throw "Invalid name. Try again";
+                throw "Invalid name. Try again.";
 
             cin >> score;
             if (cin.fail())
-                throw "Invalid score. Try again";
+                throw "Invalid score. Try again.";
 
             if (strcmp(name, "NoName") == 0 && score == 0)
-                throw "\nIteration ended properly\n";
+                throw "\nIteration ended properly.\n";
 
             else
             {
